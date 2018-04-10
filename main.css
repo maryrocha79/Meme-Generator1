@@ -1,0 +1,62 @@
+body{
+    
+    padding: 5px;
+    margin: 100px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 2em;
+
+    background-color:rgb(117, 205, 221);
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+p{
+    font-size: 2em;
+}
+
+
+.form-control{
+    /* border-radius: 15%; */
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+ .imageWrapper{
+    font-family: 'Prosto One', cursive;
+     padding-top: 10%;
+    position: relative;
+    } 
+
+.imgStyle { 
+    /* position: relative;  */
+    width: 100%;  
+}
+ 
+ .topStyle { 
+     font-size: 2em;
+     /* text-align: right; */
+    text-align: center;
+    position: absolute; 
+    /* left: 0;  */
+    top: 200;
+    width: 100%; 
+ }
+
+ .BotStyle{
+     font-stretch: extra-expanded;
+     font-size: 2em;
+     /* text-align: left; */
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    /* right: 0;  */
+    width: 100%; 
+ }
+ 
