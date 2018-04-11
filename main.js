@@ -25,22 +25,15 @@ generateMeme.addEventListener("click",  function getImg(){
     div.appendChild(textBot);
     div.appendChild(img);
     document.getElementById("images").appendChild(div);
-
+    
+    div.addEventListener('click', function deleteMeme(){
+        div.remove();
+    });
     // reset form
     var form = document.getElementById('forma');
     form.reset();
-
-
     return false;
 });
 
-
-
-
-var clickListen = document.getElementById('images');
-clickListen.addEventListener('click', function deleteMeme(){
-    clickListen.innerHTML = '';
-
-});
 
 
